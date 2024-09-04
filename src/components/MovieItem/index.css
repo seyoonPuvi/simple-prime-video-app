@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.movie-card {
+  height: 12rem;
+  width: 25rem;
+  border-radius: 1rem;
+  margin: 0 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.thumbnail-img {
+  object-fit: contain;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.popup-content {
+  background-color: white;
+  height: 25rem;
+  width: 40rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+}
